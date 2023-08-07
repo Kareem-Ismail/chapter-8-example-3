@@ -34,5 +34,5 @@ app.get("/video", async (req, res) => { // Route for streaming video.
 // Starts the HTTP server.
 //
 app.listen(PORT, () => {
-    console.log(`Microservice online.`);
+    console.log(`This Microservice is now online.`);
 });
